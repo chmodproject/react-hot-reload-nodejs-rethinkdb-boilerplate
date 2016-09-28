@@ -1,0 +1,17 @@
+server:
+  build: ./docker/server
+  volumes:
+    - "./app:/src"
+  links:
+    - db
+  ports:
+    - "3030:8080" #development
+    #- "3030:3001" #production
+db:
+  build: ./docker/db
+  volumes_from:
+    - storage
+storage:
+  build: ./docker/storage/
+  volumes:
+    - ./data:/storage

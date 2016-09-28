@@ -1,0 +1,672 @@
+2016-09-06T13:03:55.927991690 1.493465s notice: Recursively removing directory /storage/rethinkdb_data/tmp
+2016-09-06T13:03:55.956666249 1.522143s notice: Initializing directory /storage/rethinkdb_data
+2016-09-06T13:03:55.956833898 1.522306s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/storage/rethinkdb_data' did not already exist or is empty.)
+2016-09-06T13:03:55.956890426 1.522362s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-06T13:03:55.962435684 1.527912s notice: Running on Linux 4.4.0-34-generic x86_64
+2016-09-06T13:03:55.962544068 1.528016s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-06T13:03:56.121224241 1.686699s info: Automatically using cache size of 5495 MB
+2016-09-06T13:03:56.391980809 1.957453s notice: Listening for intracluster connections on port 29015
+2016-09-06T13:03:56.393883317 1.959356s notice: Listening for client driver connections on port 28015
+2016-09-06T13:03:56.395166481 1.960638s notice: Listening for administrative HTTP connections on port 8080
+2016-09-06T13:03:56.785873577 2.351345s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%70
+2016-09-06T13:03:57.027250342 2.592722s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%70
+2016-09-06T13:03:57.408204949 2.973677s notice: Listening on http addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%70
+2016-09-06T13:03:57.408224829 2.973696s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-06T13:08:26.080321995 271.645794s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 1.
+2016-09-06T13:08:26.081167484 271.646639s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Added replica on this server.
+2016-09-06T13:08:26.104641113 271.670113s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 1. Latest log index is 0.
+2016-09-06T13:57:53.094888619 3238.660361s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-06T13:57:53.095169672 3238.660641s notice: Shutting down client connections...
+2016-09-06T13:57:53.095411480 3238.660883s notice: All client connections closed.
+2016-09-06T13:57:53.095418384 3238.660890s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-06T13:57:53.099196385 3238.664669s notice: Storage engine shut down.
+2016-09-06T13:58:41.820815924 1.718825s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-06T13:58:41.824113074 1.722122s notice: Running on Linux 4.4.0-34-generic x86_64
+2016-09-06T13:58:41.824157664 1.722165s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-06T13:58:41.873102063 1.771112s info: Automatically using cache size of 5151 MB
+2016-09-06T13:58:42.112064577 2.010072s notice: Listening for intracluster connections on port 29015
+2016-09-06T13:58:42.151088586 2.049096s notice: Listening for client driver connections on port 28015
+2016-09-06T13:58:42.151546216 2.049554s notice: Listening for administrative HTTP connections on port 8080
+2016-09-06T13:58:42.412062149 2.310070s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%90
+2016-09-06T13:58:42.913327913 2.811336s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%90
+2016-09-06T13:58:43.101505846 2.999513s notice: Listening on http addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%90
+2016-09-06T13:58:43.101513003 2.999520s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-06T13:58:43.944818412 3.842826s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 2.
+2016-09-06T13:58:44.047923128 3.945931s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 2. Latest log index is 2.
+2016-09-06T15:09:59.474615964 4279.372623s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-06T15:09:59.474868071 4279.372875s notice: Shutting down client connections...
+2016-09-06T15:09:59.525723736 4279.423731s notice: All client connections closed.
+2016-09-06T15:09:59.525737266 4279.423744s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-06T15:09:59.528108238 4279.426116s notice: Storage engine shut down.
+2016-09-07T12:32:45.303568891 1.601592s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-07T12:32:45.309896509 1.607915s notice: Running on Linux 4.4.0-34-generic x86_64
+2016-09-07T12:32:45.310019484 1.608033s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-07T12:32:45.372257895 1.670276s info: Automatically using cache size of 5969 MB
+2016-09-07T12:32:45.587389618 1.885404s notice: Listening for intracluster connections on port 29015
+2016-09-07T12:32:45.665735033 1.963750s notice: Listening for client driver connections on port 28015
+2016-09-07T12:32:45.666029271 1.964043s notice: Listening for administrative HTTP connections on port 8080
+2016-09-07T12:32:46.006318274 2.304333s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%22
+2016-09-07T12:32:46.204622357 2.502637s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%22
+2016-09-07T12:32:46.394208228 2.692222s notice: Listening on http addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%22
+2016-09-07T12:32:46.394229499 2.692243s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-07T12:32:46.719925660 3.017940s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 3.
+2016-09-07T12:32:46.737254314 3.035269s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 3. Latest log index is 5.
+2016-09-07T15:01:51.423399596 8947.721414s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-07T15:01:51.423593250 8947.721607s notice: Shutting down client connections...
+2016-09-07T15:01:51.471757752 8947.769772s notice: All client connections closed.
+2016-09-07T15:01:51.471771307 8947.769785s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-07T15:01:51.499462392 8947.797476s notice: Storage engine shut down.
+2016-09-08T11:35:31.545237890 1.502305s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-08T11:35:31.551849639 1.508916s notice: Running on Linux 4.4.0-34-generic x86_64
+2016-09-08T11:35:31.551965022 1.509027s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-08T11:35:31.612076486 1.569143s info: Automatically using cache size of 5912 MB
+2016-09-08T11:35:31.796102177 1.753164s notice: Listening for intracluster connections on port 29015
+2016-09-08T11:35:31.857366063 1.814429s notice: Listening for client driver connections on port 28015
+2016-09-08T11:35:31.857759445 1.814822s notice: Listening for administrative HTTP connections on port 8080
+2016-09-08T11:35:32.085349887 2.042412s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%16
+2016-09-08T11:35:32.534012197 2.491075s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%16
+2016-09-08T11:35:32.721651724 2.678714s notice: Listening on http addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%16
+2016-09-08T11:35:32.721674872 2.678737s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-08T11:35:33.177889028 3.134951s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 4.
+2016-09-08T11:35:33.213528306 3.170590s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 4. Latest log index is 8.
+2016-09-08T11:37:39.803794237 129.760856s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-08T11:37:39.803952186 129.761014s notice: Shutting down client connections...
+2016-09-08T11:37:39.804077627 129.761139s notice: All client connections closed.
+2016-09-08T11:37:39.804081195 129.761143s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-08T11:37:39.809078651 129.766141s notice: Storage engine shut down.
+2016-09-08T11:37:45.593720719 1.074050s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-08T11:37:45.596827730 1.077156s notice: Running on Linux 4.4.0-34-generic x86_64
+2016-09-08T11:37:45.596876863 1.077203s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-08T11:37:45.659783664 1.140112s info: Automatically using cache size of 5857 MB
+2016-09-08T11:37:45.942980883 1.423307s notice: Listening for intracluster connections on port 29015
+2016-09-08T11:37:45.981000022 1.461327s notice: Listening for client driver connections on port 28015
+2016-09-08T11:37:45.981388955 1.461715s notice: Listening for administrative HTTP connections on port 8080
+2016-09-08T11:37:46.254327880 1.734655s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%22
+2016-09-08T11:37:46.575145094 2.055472s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%22
+2016-09-08T11:37:46.882446257 2.362773s notice: Listening on http addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%22
+2016-09-08T11:37:46.882467583 2.362794s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-08T11:37:47.393994902 2.874321s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 5.
+2016-09-08T11:37:47.424574246 2.904901s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 5. Latest log index is 11.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           2016-09-09T11:38:49.000419597 1.312056s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-09T11:38:49.051486043 1.363127s notice: Running on Linux 4.4.0-34-generic x86_64
+2016-09-09T11:38:49.051602401 1.363238s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-09T11:38:49.190305524 1.501945s info: Automatically using cache size of 6577 MB
+2016-09-09T11:38:49.372694152 1.684330s notice: Listening for intracluster connections on port 29015
+2016-09-09T11:38:49.632582389 1.944219s notice: Listening for client driver connections on port 28015
+2016-09-09T11:38:49.633120828 1.944757s notice: Listening for administrative HTTP connections on port 8080
+2016-09-09T11:38:49.938047182 2.249684s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%8
+2016-09-09T11:38:50.152434108 2.464070s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%8
+2016-09-09T11:38:50.446064679 2.757701s notice: Listening on http addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%8
+2016-09-09T11:38:50.446086212 2.757722s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-09T11:38:51.411339756 3.722976s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 6.
+2016-09-09T11:38:51.491370678 3.803007s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 6. Latest log index is 15.
+2016-09-09T13:19:24.094722486 6036.406358s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-09T13:19:24.094829759 6036.406465s notice: Shutting down client connections...
+2016-09-09T13:19:24.094887840 6036.406523s notice: All client connections closed.
+2016-09-09T13:19:24.094890084 6036.406525s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-09T13:19:24.127106474 6036.438742s notice: Storage engine shut down.
+2016-09-09T13:43:23.504811397 1.117091s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-09T13:43:23.507719617 1.119978s notice: Running on Linux 4.4.0-34-generic x86_64
+2016-09-09T13:43:23.507803047 1.120059s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-09T13:43:23.550319826 1.162577s info: Automatically using cache size of 4924 MB
+2016-09-09T13:43:23.779206810 1.391463s notice: Listening for intracluster connections on port 29015
+2016-09-09T13:43:23.806382206 1.418639s notice: Listening for client driver connections on port 28015
+2016-09-09T13:43:23.806582949 1.418839s notice: Listening for administrative HTTP connections on port 8080
+2016-09-09T13:43:23.995664687 1.607921s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%26
+2016-09-09T13:43:24.187339822 1.799597s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%26
+2016-09-09T13:43:24.365102119 1.977359s notice: Listening on http addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%26
+2016-09-09T13:43:24.365131283 1.977388s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-09T13:43:24.881897018 2.494154s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 7.
+2016-09-09T13:43:26.177339753 3.789597s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 7. Latest log index is 18.
+2016-09-09T13:46:50.959619686 208.571877s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-09T13:46:50.960008817 208.572266s notice: Shutting down client connections...
+2016-09-09T13:46:50.960173551 208.572430s notice: All client connections closed.
+2016-09-09T13:46:50.960186653 208.572443s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-09T13:46:50.963422158 208.575680s notice: Storage engine shut down.
+2016-09-09T13:52:35.323330519 1.108197s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-09T13:52:35.325910450 1.110759s notice: Running on Linux 4.4.0-34-generic x86_64
+2016-09-09T13:52:35.326005870 1.110853s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-09T13:52:35.350779259 1.135628s info: Automatically using cache size of 4827 MB
+2016-09-09T13:52:35.553746528 1.338594s notice: Listening for intracluster connections on port 29015
+2016-09-09T13:52:35.599146283 1.383993s notice: Listening for client driver connections on port 28015
+2016-09-09T13:52:35.599360732 1.384208s notice: Listening for administrative HTTP connections on port 8080
+2016-09-09T13:52:35.934999906 1.719847s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%48
+2016-09-09T13:52:36.120443794 1.905291s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%48
+2016-09-09T13:52:36.297887930 2.082735s notice: Listening on http addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%48
+2016-09-09T13:52:36.297894155 2.082741s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-09T13:52:37.240584536 3.025432s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 8.
+2016-09-09T13:52:37.250616007 3.035463s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 8. Latest log index is 21.
+2016-09-09T14:11:49.045354645 1154.830203s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-09T14:11:49.045655025 1154.830502s notice: Shutting down client connections...
+2016-09-09T14:11:49.045745808 1154.830593s notice: All client connections closed.
+2016-09-09T14:11:49.045750864 1154.830598s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-09T14:11:49.049336014 1154.834183s notice: Storage engine shut down.
+2016-09-09T14:16:21.850817026 0.974018s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-09T14:16:21.853326654 0.976528s notice: Running on Linux 4.4.0-34-generic x86_64
+2016-09-09T14:16:21.853408275 0.976608s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-09T14:16:21.898534722 1.021736s info: Automatically using cache size of 4794 MB
+2016-09-09T14:16:22.170394092 1.293594s notice: Listening for intracluster connections on port 29015
+2016-09-09T14:16:22.202579365 1.325780s notice: Listening for client driver connections on port 28015
+2016-09-09T14:16:22.202783266 1.325983s notice: Listening for administrative HTTP connections on port 8080
+2016-09-09T14:16:22.475895184 1.599095s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%60
+2016-09-09T14:16:22.891869592 2.015070s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%60
+2016-09-09T14:16:23.300782196 2.423982s notice: Listening on http addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%60
+2016-09-09T14:16:23.300788349 2.423988s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-09T14:16:23.594512725 2.717713s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 9.
+2016-09-09T14:16:23.641985408 2.765186s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 9. Latest log index is 24.
+2016-09-09T14:26:12.325628734 591.448829s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-09T14:26:12.325861427 591.449062s notice: Shutting down client connections...
+2016-09-09T14:26:12.325940535 591.449140s notice: All client connections closed.
+2016-09-09T14:26:12.325945342 591.449145s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-09T14:26:12.329316562 591.452517s notice: Storage engine shut down.
+2016-09-09T14:29:25.354903909 1.072906s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-09T14:29:25.357399565 1.075400s notice: Running on Linux 4.4.0-34-generic x86_64
+2016-09-09T14:29:25.357439760 1.075439s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-09T14:29:25.386308819 1.104309s info: Automatically using cache size of 4647 MB
+2016-09-09T14:29:25.760088360 1.478087s notice: Listening for intracluster connections on port 29015
+2016-09-09T14:29:25.807281092 1.525280s notice: Listening for client driver connections on port 28015
+2016-09-09T14:29:25.807455865 1.525455s notice: Listening for administrative HTTP connections on port 8080
+2016-09-09T14:29:26.062110854 1.780110s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%70
+2016-09-09T14:29:26.259837791 1.977837s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%70
+2016-09-09T14:29:26.453882331 2.171881s notice: Listening on http addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%70
+2016-09-09T14:29:26.453887707 2.171887s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-09T14:29:27.160826889 2.878826s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 10.
+2016-09-09T14:29:27.221663226 2.939662s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 10. Latest log index is 27.
+2016-09-09T14:35:51.069731634 386.787731s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-09T14:35:51.069989171 386.787989s notice: Shutting down client connections...
+2016-09-09T14:35:51.070103771 386.788103s notice: All client connections closed.
+2016-09-09T14:35:51.070111232 386.788110s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-09T14:35:51.073912598 386.791912s notice: Storage engine shut down.
+2016-09-09T14:35:57.166156998 1.430612s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-09T14:35:57.168594703 1.433050s notice: Running on Linux 4.4.0-34-generic x86_64
+2016-09-09T14:35:57.168653466 1.433107s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-09T14:35:57.202109361 1.466564s info: Automatically using cache size of 4665 MB
+2016-09-09T14:35:57.444690093 1.709144s notice: Listening for intracluster connections on port 29015
+2016-09-09T14:35:57.462284138 1.726738s notice: Listening for client driver connections on port 28015
+2016-09-09T14:35:57.462464645 1.726918s notice: Listening for administrative HTTP connections on port 8080
+2016-09-09T14:35:57.683264664 1.947718s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%76
+2016-09-09T14:35:57.969170055 2.233624s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%76
+2016-09-09T14:35:58.613539996 2.877994s notice: Listening on http addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%76
+2016-09-09T14:35:58.613565192 2.878019s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-09T14:35:58.644586459 2.909041s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 11.
+2016-09-09T14:35:58.677278871 2.941733s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 11. Latest log index is 30.
+2016-09-09T14:41:06.742378401 311.006833s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-09T14:41:06.742677598 311.007132s notice: Shutting down client connections...
+2016-09-09T14:41:06.742783507 311.007237s notice: All client connections closed.
+2016-09-09T14:41:06.742788749 311.007242s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-09T14:41:06.747267261 311.011722s notice: Storage engine shut down.
+2016-09-09T14:41:35.863685837 1.164885s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-09T14:41:35.866134805 1.167334s notice: Running on Linux 4.4.0-34-generic x86_64
+2016-09-09T14:41:35.866208535 1.167406s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-09T14:41:35.912100526 1.213299s info: Automatically using cache size of 4665 MB
+2016-09-09T14:41:36.188508144 1.489706s notice: Listening for intracluster connections on port 29015
+2016-09-09T14:41:36.211218809 1.512416s notice: Listening for client driver connections on port 28015
+2016-09-09T14:41:36.211324538 1.512522s notice: Listening for administrative HTTP connections on port 8080
+2016-09-09T14:41:36.407148200 1.708346s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%84
+2016-09-09T14:41:36.597063848 1.898262s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%84
+2016-09-09T14:41:36.834077203 2.135275s notice: Listening on http addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%84
+2016-09-09T14:41:36.834101797 2.135299s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-09T14:41:37.392211210 2.693409s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 12.
+2016-09-09T14:41:37.424337642 2.725536s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 12. Latest log index is 33.
+2016-09-09T14:43:06.745902574 92.047100s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-09T14:43:06.746030523 92.047228s notice: Shutting down client connections...
+2016-09-09T14:43:06.746077165 92.047275s notice: All client connections closed.
+2016-09-09T14:43:06.746079007 92.047276s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-09T14:43:06.747300741 92.048498s notice: Storage engine shut down.
+2016-09-09T14:43:21.175591998 1.160774s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-09T14:43:21.178180699 1.163362s notice: Running on Linux 4.4.0-34-generic x86_64
+2016-09-09T14:43:21.178265338 1.163445s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-09T14:43:21.225452791 1.210634s info: Automatically using cache size of 4679 MB
+2016-09-09T14:43:21.420721759 1.405901s notice: Listening for intracluster connections on port 29015
+2016-09-09T14:43:21.448297794 1.433478s notice: Listening for client driver connections on port 28015
+2016-09-09T14:43:21.448431544 1.433611s notice: Listening for administrative HTTP connections on port 8080
+2016-09-09T14:43:21.777686365 1.762866s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%92
+2016-09-09T14:43:22.026461509 2.011641s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%92
+2016-09-09T14:43:22.382911260 2.368091s notice: Listening on http addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%92
+2016-09-09T14:43:22.382918450 2.368098s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-09T14:43:22.797918273 2.783098s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 13.
+2016-09-09T14:43:22.823318252 2.808498s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 13. Latest log index is 36.
+2016-09-09T14:56:59.793920157 819.779100s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-09T14:56:59.794131163 819.779311s notice: Shutting down client connections...
+2016-09-09T14:56:59.794287664 819.779467s notice: All client connections closed.
+2016-09-09T14:56:59.794292736 819.779472s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-09T14:56:59.798005976 819.783186s notice: Storage engine shut down.
+2016-09-09T14:57:08.205435470 0.809830s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-09T14:57:08.207909227 0.812284s notice: Running on Linux 4.4.0-34-generic x86_64
+2016-09-09T14:57:08.207967218 0.812340s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-09T14:57:08.254288206 0.858662s info: Automatically using cache size of 4693 MB
+2016-09-09T14:57:08.444762119 1.049135s notice: Listening for intracluster connections on port 29015
+2016-09-09T14:57:08.477428728 1.081801s notice: Listening for client driver connections on port 28015
+2016-09-09T14:57:08.477614883 1.081987s notice: Listening for administrative HTTP connections on port 8080
+2016-09-09T14:57:08.676180286 1.280553s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%100
+2016-09-09T14:57:08.864644870 1.469018s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%100
+2016-09-09T14:57:09.157523716 1.761896s notice: Listening on http addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%100
+2016-09-09T14:57:09.157529770 1.761902s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-09T14:57:09.489049002 2.093422s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 14.
+2016-09-09T14:57:09.529431441 2.133804s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 14. Latest log index is 39.
+2016-09-09T16:07:35.931897557 4228.536271s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-09T16:07:35.932316478 4228.536690s notice: Shutting down client connections...
+2016-09-09T16:07:35.932505336 4228.536878s notice: All client connections closed.
+2016-09-09T16:07:35.932553252 4228.536926s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-09T16:07:35.937073911 4228.541448s notice: Storage engine shut down.
+2016-09-09T21:20:24.003554127 1.989580s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-09T21:20:24.025523808 2.011546s notice: Running on Linux 4.4.0-36-generic x86_64
+2016-09-09T21:20:24.025649754 2.011667s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-09T21:20:24.257911282 2.243936s info: Automatically using cache size of 5385 MB
+2016-09-09T21:20:24.456176096 2.442194s notice: Listening for intracluster connections on port 29015
+2016-09-09T21:20:24.574961598 2.560979s notice: Listening for client driver connections on port 28015
+2016-09-09T21:20:24.575457494 2.561475s notice: Listening for administrative HTTP connections on port 8080
+2016-09-09T21:20:24.772272384 2.758290s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%12
+2016-09-09T21:20:24.962632624 2.948650s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%12
+2016-09-09T21:20:25.319909835 3.305927s notice: Listening on http addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%12
+2016-09-09T21:20:25.319927924 3.305945s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-09T21:20:26.165434258 4.151452s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 15.
+2016-09-09T21:20:26.177818307 4.163836s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 15. Latest log index is 42.
+2016-09-09T23:36:26.859826929 8164.845844s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-09T23:36:26.859913492 8164.845930s notice: Shutting down client connections...
+2016-09-09T23:36:26.859943417 8164.845960s notice: All client connections closed.
+2016-09-09T23:36:26.859944838 8164.845962s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-09T23:36:26.876932920 8164.862950s notice: Storage engine shut down.
+2016-09-09T23:36:28.833329549 1.042706s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-09T23:36:28.839071295 1.048435s notice: Running on Linux 4.4.0-36-generic x86_64
+2016-09-09T23:36:28.839194987 1.048554s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-09T23:36:28.907381375 1.116744s info: Automatically using cache size of 4410 MB
+2016-09-09T23:36:29.139542302 1.348901s notice: Listening for intracluster connections on port 29015
+2016-09-09T23:36:29.184484986 1.393845s notice: Listening for client driver connections on port 28015
+2016-09-09T23:36:29.184804940 1.394164s notice: Listening for administrative HTTP connections on port 8080
+2016-09-09T23:36:29.445487897 1.654848s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%84
+2016-09-09T23:36:29.638204864 1.847564s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%84
+2016-09-09T23:36:29.960650961 2.170010s notice: Listening on http addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%84
+2016-09-09T23:36:29.960658420 2.170017s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-09T23:36:30.920375508 3.129734s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 16.
+2016-09-09T23:36:30.965168656 3.174528s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 16. Latest log index is 45.
+2016-09-09T23:37:12.363705820 44.573065s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-09T23:37:12.363982061 44.573341s notice: Shutting down client connections...
+2016-09-09T23:37:12.364090637 44.573450s notice: All client connections closed.
+2016-09-09T23:37:12.364097282 44.573456s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-09T23:37:12.367693869 44.577053s notice: Storage engine shut down.
+2016-09-09T23:37:22.069741374 1.244616s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-09T23:37:22.076217595 1.251081s notice: Running on Linux 4.4.0-36-generic x86_64
+2016-09-09T23:37:22.076342247 1.251200s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-09T23:37:22.113295763 1.288159s info: Automatically using cache size of 4450 MB
+2016-09-09T23:37:22.370375628 1.545234s notice: Listening for intracluster connections on port 29015
+2016-09-09T23:37:22.398840740 1.573699s notice: Listening for client driver connections on port 28015
+2016-09-09T23:37:22.399347028 1.574205s notice: Listening for administrative HTTP connections on port 8080
+2016-09-09T23:37:22.584313376 1.759172s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%90
+2016-09-09T23:37:22.773938556 1.948797s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%90
+2016-09-09T23:37:23.001802714 2.176661s notice: Listening on http addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%90
+2016-09-09T23:37:23.001821530 2.176679s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-09T23:37:23.778408682 2.953267s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 17.
+2016-09-09T23:37:23.789140233 2.963998s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 17. Latest log index is 48.
+2016-09-09T23:37:53.425596012 32.600454s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-09T23:37:53.425796688 32.600655s notice: Shutting down client connections...
+2016-09-09T23:37:53.426024941 32.600883s notice: All client connections closed.
+2016-09-09T23:37:53.426040025 32.600898s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-09T23:37:53.429641944 32.604500s notice: Storage engine shut down.
+2016-09-09T23:38:42.180265086 0.803644s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-09T23:38:42.182921817 0.806302s notice: Running on Linux 4.4.0-36-generic x86_64
+2016-09-09T23:38:42.182983426 0.806361s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-09T23:38:42.207935107 0.831315s info: Automatically using cache size of 4472 MB
+2016-09-09T23:38:42.400401980 1.023780s notice: Listening for intracluster connections on port 29015
+2016-09-09T23:38:42.418278966 1.041657s notice: Listening for client driver connections on port 28015
+2016-09-09T23:38:42.418443662 1.041821s notice: Listening for administrative HTTP connections on port 8080
+2016-09-09T23:38:42.588351517 1.211730s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%96
+2016-09-09T23:38:42.792974267 1.416353s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%96
+2016-09-09T23:38:42.982529157 1.605907s notice: Listening on http addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%96
+2016-09-09T23:38:42.982541972 1.605920s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-09T23:38:44.348853092 2.972231s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 18.
+2016-09-09T23:38:44.377813690 3.001191s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 18. Latest log index is 51.
+2016-09-09T23:46:52.537032372 491.160411s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-09T23:46:52.537246569 491.160625s notice: Shutting down client connections...
+2016-09-09T23:46:52.537345935 491.160724s notice: All client connections closed.
+2016-09-09T23:46:52.537350987 491.160729s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-09T23:46:52.540514985 491.163893s notice: Storage engine shut down.
+2016-09-09T23:46:55.163537661 1.696966s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-09T23:46:55.169338277 1.702767s notice: Running on Linux 4.4.0-36-generic x86_64
+2016-09-09T23:46:55.169477882 1.702901s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-09T23:46:55.203580821 1.737007s info: Automatically using cache size of 4349 MB
+2016-09-09T23:46:55.386815505 1.920239s notice: Listening for intracluster connections on port 29015
+2016-09-09T23:46:55.415658990 1.949083s notice: Listening for client driver connections on port 28015
+2016-09-09T23:46:55.416058415 1.949482s notice: Listening for administrative HTTP connections on port 8080
+2016-09-09T23:46:55.609488165 2.142912s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%114
+2016-09-09T23:46:55.939873026 2.473297s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%114
+2016-09-09T23:46:56.118878303 2.652302s notice: Listening on http addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%114
+2016-09-09T23:46:56.118911229 2.652335s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-09T23:46:56.518197949 3.051622s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 19.
+2016-09-09T23:46:56.541609670 3.075034s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 19. Latest log index is 54.
+2016-09-09T23:56:43.360018591 589.893443s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-09T23:56:43.360328729 589.893752s notice: Shutting down client connections...
+2016-09-09T23:56:43.360417781 589.893841s notice: All client connections closed.
+2016-09-09T23:56:43.360424528 589.893848s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-09T23:56:43.364049467 589.897474s notice: Storage engine shut down.
+2016-09-09T23:56:45.201753919 1.009499s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-09T23:56:45.208194041 1.015935s notice: Running on Linux 4.4.0-36-generic x86_64
+2016-09-09T23:56:45.208329818 1.016066s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-09T23:56:45.245483941 1.053224s info: Automatically using cache size of 4724 MB
+2016-09-09T23:56:45.430079239 1.237815s notice: Listening for intracluster connections on port 29015
+2016-09-09T23:56:45.478871765 1.286607s notice: Listening for client driver connections on port 28015
+2016-09-09T23:56:45.478986039 1.286721s notice: Listening for administrative HTTP connections on port 8080
+2016-09-09T23:56:45.839596265 1.647332s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%122
+2016-09-09T23:56:46.167086352 1.974822s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%122
+2016-09-09T23:56:46.406739161 2.214475s notice: Listening on http addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%122
+2016-09-09T23:56:46.406757182 2.214493s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-09T23:56:46.973689640 2.781425s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 20.
+2016-09-09T23:56:46.988372954 2.796109s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 20. Latest log index is 57.
+2016-09-10T00:15:04.876879919 1100.684615s error: Failed to parse one or more lines from the log file, the contents of the `logs` system table will be incomplete. The following parse error occurred: cannot parse log message (1) while parsing ""
+2016-09-10T00:25:42.803520925 1738.611257s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-10T00:25:42.803748345 1738.611484s notice: Shutting down client connections...
+2016-09-10T00:25:42.803853408 1738.611589s notice: All client connections closed.
+2016-09-10T00:25:42.803860837 1738.611596s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-10T00:25:42.808404087 1738.616140s notice: Storage engine shut down.
+2016-09-10T00:25:45.270822051 1.439265s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-10T00:25:45.276652736 1.445095s notice: Running on Linux 4.4.0-36-generic x86_64
+2016-09-10T00:25:45.276773546 1.445211s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-10T00:25:45.334478898 1.502918s info: Automatically using cache size of 4484 MB
+2016-09-10T00:25:45.998022789 2.166461s notice: Listening for intracluster connections on port 29015
+2016-09-10T00:25:46.061190171 2.229628s notice: Listening for client driver connections on port 28015
+2016-09-10T00:25:46.061743242 2.230181s notice: Listening for administrative HTTP connections on port 8080
+2016-09-10T00:25:46.448933160 2.617371s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%130
+2016-09-10T00:25:46.753695396 2.922136s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%130
+2016-09-10T00:25:47.062727340 3.231164s notice: Listening on http addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%130
+2016-09-10T00:25:47.062737414 3.231174s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-10T00:25:47.162155531 3.330593s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 21.
+2016-09-10T00:25:47.210163120 3.378601s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 21. Latest log index is 60.
+2016-09-10T00:28:24.512079799 160.680518s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-10T00:28:24.512380949 160.680819s notice: Shutting down client connections...
+2016-09-10T00:28:24.512533597 160.680971s notice: All client connections closed.
+2016-09-10T00:28:24.512545444 160.680983s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-10T00:28:24.515996334 160.684434s notice: Storage engine shut down.
+2016-09-10T00:28:26.649823846 1.045187s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-10T00:28:26.655615035 1.050973s notice: Running on Linux 4.4.0-36-generic x86_64
+2016-09-10T00:28:26.655748240 1.051102s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-10T00:28:26.707868833 1.103223s info: Automatically using cache size of 4143 MB
+2016-09-10T00:28:26.920503964 1.315859s notice: Listening for intracluster connections on port 29015
+2016-09-10T00:28:26.950388202 1.345742s notice: Listening for client driver connections on port 28015
+2016-09-10T00:28:26.950523731 1.345877s notice: Listening for administrative HTTP connections on port 8080
+2016-09-10T00:28:27.245812303 1.641166s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%136
+2016-09-10T00:28:27.426435917 1.821790s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%136
+2016-09-10T00:28:27.872097609 2.267451s notice: Listening on http addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%136
+2016-09-10T00:28:27.872118763 2.267472s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-10T00:28:28.456094353 2.851448s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 22.
+2016-09-10T00:28:28.482044935 2.877398s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 22. Latest log index is 63.
+2016-09-10T00:31:24.407668968 178.803023s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-10T00:31:24.407945159 178.803321s notice: Shutting down client connections...
+2016-09-10T00:31:24.408065755 178.803419s notice: All client connections closed.
+2016-09-10T00:31:24.408070747 178.803424s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-10T00:31:24.411413497 178.806767s notice: Storage engine shut down.
+2016-09-10T00:31:26.513194250 1.053085s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-10T00:31:26.518849567 1.058741s notice: Running on Linux 4.4.0-36-generic x86_64
+2016-09-10T00:31:26.518987036 1.058874s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-10T00:31:26.582430197 1.122318s info: Automatically using cache size of 4447 MB
+2016-09-10T00:31:26.797457371 1.337344s notice: Listening for intracluster connections on port 29015
+2016-09-10T00:31:26.845242036 1.385129s notice: Listening for client driver connections on port 28015
+2016-09-10T00:31:26.845539534 1.385426s notice: Listening for administrative HTTP connections on port 8080
+2016-09-10T00:31:27.152031073 1.691918s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%142
+2016-09-10T00:31:27.337405851 1.877293s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%142
+2016-09-10T00:31:27.652470466 2.192358s notice: Listening on http addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%142
+2016-09-10T00:31:27.652492669 2.192379s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-10T00:31:28.143284666 2.683171s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 23.
+2016-09-10T00:31:28.168157833 2.708045s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 23. Latest log index is 66.
+2016-09-10T00:32:17.012822964 51.552710s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-10T00:32:17.013068439 51.552955s notice: Shutting down client connections...
+2016-09-10T00:32:17.013202843 51.553089s notice: All client connections closed.
+2016-09-10T00:32:17.013207937 51.553094s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-10T00:32:17.017715463 51.557602s notice: Storage engine shut down.
+2016-09-10T00:32:19.124508285 1.141727s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-10T00:32:19.127119468 1.144338s notice: Running on Linux 4.4.0-36-generic x86_64
+2016-09-10T00:32:19.127159774 1.144377s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-10T00:32:19.173561078 1.190779s info: Automatically using cache size of 4442 MB
+2016-09-10T00:32:19.371048998 1.388266s notice: Listening for intracluster connections on port 29015
+2016-09-10T00:32:19.403273048 1.420490s notice: Listening for client driver connections on port 28015
+2016-09-10T00:32:19.403458185 1.420675s notice: Listening for administrative HTTP connections on port 8080
+2016-09-10T00:32:19.597712548 1.614931s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%148
+2016-09-10T00:32:19.787359828 1.804578s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%148
+2016-09-10T00:32:19.981632004 1.998850s notice: Listening on http addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%148
+2016-09-10T00:32:19.981655368 1.998873s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-10T00:32:20.507300957 2.524519s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 24.
+2016-09-10T00:32:20.548830566 2.566048s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 24. Latest log index is 69.
+2016-09-10T00:40:57.131246457 519.148464s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-10T00:40:57.131474268 519.148692s notice: Shutting down client connections...
+2016-09-10T00:40:57.131555657 519.148773s notice: All client connections closed.
+2016-09-10T00:40:57.131559936 519.148777s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-10T00:40:57.134570083 519.151788s notice: Storage engine shut down.
+2016-09-10T00:42:09.431622586 1.037084s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-10T00:42:09.434582126 1.040044s notice: Running on Linux 4.4.0-36-generic x86_64
+2016-09-10T00:42:09.434628591 1.040088s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-10T00:42:09.482320578 1.087783s info: Automatically using cache size of 4502 MB
+2016-09-10T00:42:09.683297019 1.288757s notice: Listening for intracluster connections on port 29015
+2016-09-10T00:42:09.732384832 1.337845s notice: Listening for client driver connections on port 28015
+2016-09-10T00:42:09.732743395 1.338204s notice: Listening for administrative HTTP connections on port 8080
+2016-09-10T00:42:09.917713660 1.523175s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%154
+2016-09-10T00:42:10.367664839 1.973125s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%154
+2016-09-10T00:42:10.559844561 2.165305s notice: Listening on http addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%154
+2016-09-10T00:42:10.559865974 2.165326s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-10T00:42:10.996016515 2.601477s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 25.
+2016-09-10T00:42:11.034039275 2.639500s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 25. Latest log index is 72.
+2016-09-10T00:42:41.351151577 32.956612s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-10T00:42:41.351369805 32.956830s notice: Shutting down client connections...
+2016-09-10T00:42:41.351473898 32.956934s notice: All client connections closed.
+2016-09-10T00:42:41.351479318 32.956939s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-10T00:42:41.353311963 32.958772s notice: Storage engine shut down.
+2016-09-10T00:42:43.386917115 0.995743s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-10T00:42:43.389076068 0.997903s notice: Running on Linux 4.4.0-36-generic x86_64
+2016-09-10T00:42:43.389139417 0.997964s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-10T00:42:43.457622333 1.066448s info: Automatically using cache size of 4481 MB
+2016-09-10T00:42:43.705321585 1.314146s notice: Listening for intracluster connections on port 29015
+2016-09-10T00:42:43.759580890 1.368406s notice: Listening for client driver connections on port 28015
+2016-09-10T00:42:43.759863183 1.368688s notice: Listening for administrative HTTP connections on port 8080
+2016-09-10T00:42:43.979496256 1.588321s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%160
+2016-09-10T00:42:44.521887721 2.130713s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%160
+2016-09-10T00:42:44.704112101 2.312937s notice: Listening on http addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%160
+2016-09-10T00:42:44.704119497 2.312944s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-10T00:42:45.509134276 3.117959s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 26.
+2016-09-10T00:42:45.565622272 3.174447s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 26. Latest log index is 75.
+2016-09-10T00:44:23.869189829 101.478015s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-10T00:44:23.869389598 101.478214s notice: Shutting down client connections...
+2016-09-10T00:44:23.869495958 101.478321s notice: All client connections closed.
+2016-09-10T00:44:23.869502870 101.478327s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-10T00:44:23.872890829 101.481716s notice: Storage engine shut down.
+2016-09-10T00:45:40.845698351 0.833192s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-10T00:45:40.847822379 0.835317s notice: Running on Linux 4.4.0-36-generic x86_64
+2016-09-10T00:45:40.847870158 0.835362s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-10T00:45:40.939503534 0.926997s info: Automatically using cache size of 4492 MB
+2016-09-10T00:45:41.264764830 1.252257s notice: Listening for intracluster connections on port 29015
+2016-09-10T00:45:41.323006225 1.310498s notice: Listening for client driver connections on port 28015
+2016-09-10T00:45:41.323139079 1.310631s notice: Listening for administrative HTTP connections on port 8080
+2016-09-10T00:45:41.528145455 1.515638s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%166
+2016-09-10T00:45:41.776256989 1.763749s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%166
+2016-09-10T00:45:42.000630486 1.988123s notice: Listening on http addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%166
+2016-09-10T00:45:42.000639033 1.988131s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-10T00:45:43.172423192 3.159915s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 27.
+2016-09-10T00:45:43.219266100 3.206759s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 27. Latest log index is 78.
+2016-09-10T00:52:35.537436871 415.524930s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-10T00:52:35.537928758 415.525421s notice: Shutting down client connections...
+2016-09-10T00:52:35.538028768 415.525521s notice: All client connections closed.
+2016-09-10T00:52:35.538036556 415.525529s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-10T00:52:35.541712176 415.529205s notice: Storage engine shut down.
+2016-09-10T00:52:37.517221996 0.905796s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-10T00:52:37.523805476 0.912364s notice: Running on Linux 4.4.0-36-generic x86_64
+2016-09-10T00:52:37.523940147 0.912494s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-10T00:52:37.585271223 0.973826s info: Automatically using cache size of 4513 MB
+2016-09-10T00:52:37.759279796 1.147834s notice: Listening for intracluster connections on port 29015
+2016-09-10T00:52:37.813290299 1.201844s notice: Listening for client driver connections on port 28015
+2016-09-10T00:52:37.813688716 1.202242s notice: Listening for administrative HTTP connections on port 8080
+2016-09-10T00:52:38.181191973 1.569746s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%172
+2016-09-10T00:52:38.374042787 1.762597s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%172
+2016-09-10T00:52:38.655054912 2.043609s notice: Listening on http addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%172
+2016-09-10T00:52:38.655083202 2.043636s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-10T00:52:39.482512086 2.871065s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 28.
+2016-09-10T00:52:39.518340312 2.906894s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 28. Latest log index is 81.
+2016-09-10T00:58:14.706856298 338.095410s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-10T00:58:14.707108539 338.095662s notice: Shutting down client connections...
+2016-09-10T00:58:14.707214499 338.095768s notice: All client connections closed.
+2016-09-10T00:58:14.707247951 338.095801s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-10T00:58:14.709443422 338.097997s notice: Storage engine shut down.
+2016-09-10T22:55:51.559397239 1.124216s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-10T22:55:51.589027826 1.153847s notice: Running on Linux 4.4.0-36-generic x86_64
+2016-09-10T22:55:51.589073287 1.153890s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-10T22:55:51.805217280 1.370037s info: Automatically using cache size of 6402 MB
+2016-09-10T22:55:52.012669612 1.577487s notice: Listening for intracluster connections on port 29015
+2016-09-10T22:55:52.120684627 1.685502s notice: Listening for client driver connections on port 28015
+2016-09-10T22:55:52.120872092 1.685689s notice: Listening for administrative HTTP connections on port 8080
+2016-09-10T22:55:52.312153976 1.876998s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%8
+2016-09-10T22:55:52.511003521 2.075821s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%8
+2016-09-10T22:55:52.745559577 2.310377s notice: Listening on http addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%8
+2016-09-10T22:55:52.745579518 2.310396s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-10T22:55:53.118774338 2.683591s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 29.
+2016-09-10T22:55:53.199953228 2.764771s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 29. Latest log index is 84.
+2016-09-11T01:20:19.647899030 8669.212716s error: Failed to parse one or more lines from the log file, the contents of the `logs` system table will be incomplete. The following parse error occurred: cannot parse log message (1) while parsing ""
+2016-09-11T13:34:22.430875252 52711.995693s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-11T13:34:22.431121184 52711.995938s notice: Shutting down client connections...
+2016-09-11T13:34:22.431168624 52711.995986s notice: All client connections closed.
+2016-09-11T13:34:22.431171054 52711.995988s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-11T13:34:22.536399071 52712.101216s notice: Storage engine shut down.
+2016-09-11T23:21:56.347807691 1.036663s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-11T23:21:56.351143815 1.040000s notice: Running on Linux 4.4.0-36-generic x86_64
+2016-09-11T23:21:56.351193395 1.040047s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-11T23:21:56.435842704 1.124697s info: Automatically using cache size of 5716 MB
+2016-09-11T23:21:56.830875719 1.519730s notice: Listening for intracluster connections on port 29015
+2016-09-11T23:21:56.942300483 1.631155s notice: Listening for client driver connections on port 28015
+2016-09-11T23:21:56.942930266 1.631784s notice: Listening for administrative HTTP connections on port 8080
+2016-09-11T23:21:57.142807574 1.831662s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%8
+2016-09-11T23:21:57.450074126 2.138928s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%8
+2016-09-11T23:21:57.642632552 2.331486s notice: Listening on http addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%8
+2016-09-11T23:21:57.642647329 2.331501s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-11T23:21:58.827263644 3.516118s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 30.
+2016-09-11T23:21:58.868235536 3.557090s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 30. Latest log index is 87.
+2016-09-12T01:47:59.640540975 8764.329395s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-12T01:47:59.640785661 8764.329639s notice: Shutting down client connections...
+2016-09-12T01:47:59.640874817 8764.329729s notice: All client connections closed.
+2016-09-12T01:47:59.640882089 8764.329736s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-12T01:47:59.647707381 8764.336562s notice: Storage engine shut down.
+2016-09-12T07:26:57.563536757 1.421750s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-12T07:26:57.568003051 1.426216s notice: Running on Linux 4.4.0-36-generic x86_64
+2016-09-12T07:26:57.568065304 1.426276s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-12T07:26:57.669936638 1.528153s info: Automatically using cache size of 6683 MB
+2016-09-12T07:26:58.107901877 1.966113s notice: Listening for intracluster connections on port 29015
+2016-09-12T07:26:58.150716617 2.008928s notice: Listening for client driver connections on port 28015
+2016-09-12T07:26:58.150949845 2.009161s notice: Listening for administrative HTTP connections on port 8080
+2016-09-12T07:26:58.348918511 2.207130s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%8
+2016-09-12T07:26:58.534645828 2.392857s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%8
+2016-09-12T07:26:58.720313269 2.578524s notice: Listening on http addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%8
+2016-09-12T07:26:58.720319019 2.578530s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-12T07:26:59.765883169 3.624095s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 31.
+2016-09-12T07:26:59.838289494 3.696501s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 31. Latest log index is 90.
+2016-09-12T12:24:45.145277718 17869.003489s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-12T12:24:45.145457297 17869.003668s notice: Shutting down client connections...
+2016-09-12T12:24:45.145513691 17869.003725s notice: All client connections closed.
+2016-09-12T12:24:45.145538926 17869.003750s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-12T12:24:45.150472194 17869.008684s notice: Storage engine shut down.
+2016-09-18T04:53:42.927440029 0.997755s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-18T04:53:43.074867415 1.145184s notice: Running on Linux 4.4.0-36-generic x86_64
+2016-09-18T04:53:43.074987607 1.145299s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-18T04:53:43.551365676 1.621683s info: Automatically using cache size of 5678 MB
+2016-09-18T04:53:43.852269657 1.922581s notice: Listening for intracluster connections on port 29015
+2016-09-18T04:53:44.361489399 2.431801s notice: Listening for client driver connections on port 28015
+2016-09-18T04:53:44.361579321 2.431891s notice: Listening for administrative HTTP connections on port 8080
+2016-09-18T04:53:44.454743817 2.525056s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%8
+2016-09-18T04:53:44.582006633 2.652319s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%8
+2016-09-18T04:53:44.684567124 2.754879s notice: Listening on http addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%8
+2016-09-18T04:53:44.684573174 2.754884s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-18T04:53:46.277513547 4.347825s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 32.
+2016-09-18T04:53:46.326851984 4.397164s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 32. Latest log index is 93.
+2016-09-18T06:47:13.529440438 6811.599752s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-18T06:47:13.529572252 6811.599884s notice: Shutting down client connections...
+2016-09-18T06:47:13.529624943 6811.599936s notice: All client connections closed.
+2016-09-18T06:47:13.529627850 6811.599939s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-18T06:47:13.563559020 6811.633871s notice: Storage engine shut down.
+2016-09-18T11:14:27.449588214 1.248039s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-18T11:14:27.468989038 1.267436s notice: Running on Linux 4.4.0-36-generic x86_64
+2016-09-18T11:14:27.469029692 1.267474s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-18T11:14:27.638773779 1.437222s info: Automatically using cache size of 6665 MB
+2016-09-18T11:14:27.905557504 1.704003s notice: Listening for intracluster connections on port 29015
+2016-09-18T11:14:28.020155908 1.818601s notice: Listening for client driver connections on port 28015
+2016-09-18T11:14:28.020476318 1.818921s notice: Listening for administrative HTTP connections on port 8080
+2016-09-18T11:14:28.997722168 2.796167s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%8
+2016-09-18T11:14:29.216861995 3.015307s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%8
+2016-09-18T11:14:29.222993459 3.021438s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 33.
+2016-09-18T11:14:29.246914979 3.045360s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 33. Latest log index is 96.
+2016-09-18T11:14:29.408446027 3.206891s notice: Listening on http addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%8
+2016-09-18T11:14:29.408453064 3.206898s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-18T13:10:52.144510128 6985.942957s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-18T13:10:52.144784044 6985.943229s notice: Shutting down client connections...
+2016-09-18T13:10:52.144866912 6985.943312s notice: All client connections closed.
+2016-09-18T13:10:52.144871894 6985.943317s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-18T13:10:52.151463200 6985.949909s notice: Storage engine shut down.
+2016-09-19T11:41:08.547403925 1.299336s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-19T11:41:08.554310177 1.306242s notice: Running on Linux 4.4.0-36-generic x86_64
+2016-09-19T11:41:08.554435185 1.306360s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-19T11:41:08.655766322 1.407696s info: Automatically using cache size of 6554 MB
+2016-09-19T11:41:08.901938704 1.653864s notice: Listening for intracluster connections on port 29015
+2016-09-19T11:41:08.975465241 1.727390s notice: Listening for client driver connections on port 28015
+2016-09-19T11:41:08.975567444 1.727492s notice: Listening for administrative HTTP connections on port 8080
+2016-09-19T11:41:09.304684842 2.056610s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%8
+2016-09-19T11:41:09.576481547 2.328406s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%8
+2016-09-19T11:41:09.782652079 2.534577s notice: Listening on http addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%8
+2016-09-19T11:41:09.782659616 2.534584s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-19T11:41:10.630978465 3.382903s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 34.
+2016-09-19T11:41:10.676476022 3.428401s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 34. Latest log index is 99.
+2016-09-19T15:17:08.985457770 12961.737383s warn: Some RethinkDB data on this server has been placed into swap memory. This may impact performance.
+2016-09-22T22:17:58.681537774 2.000736s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-22T22:17:58.757979330 2.077160s notice: Running on Linux 4.4.0-36-generic x86_64
+2016-09-22T22:17:58.758031748 2.077209s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-22T22:17:59.179372003 2.498552s info: Automatically using cache size of 6877 MB
+2016-09-22T22:17:59.420052992 2.739230s notice: Listening for intracluster connections on port 29015
+2016-09-22T22:17:59.787070645 3.106248s notice: Listening for client driver connections on port 28015
+2016-09-22T22:17:59.787175914 3.106353s notice: Listening for administrative HTTP connections on port 8080
+2016-09-22T22:18:00.238514097 3.557692s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%8
+2016-09-22T22:18:00.852209133 4.171387s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%8
+2016-09-22T22:18:00.977016881 4.296196s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 35.
+2016-09-22T22:18:01.010745274 4.329923s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 35. Latest log index is 102.
+2016-09-22T22:18:01.158784348 4.477962s notice: Listening on http addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%8
+2016-09-22T22:18:01.158790679 4.477968s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-22T22:18:25.067621641 28.386800s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-22T22:18:25.067857616 28.387035s notice: Shutting down client connections...
+2016-09-22T22:18:25.067939378 28.387117s notice: All client connections closed.
+2016-09-22T22:18:25.067944183 28.387121s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-22T22:18:25.106285450 28.425464s notice: Storage engine shut down.
+2016-09-22T22:30:03.118663510 1.066446s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-22T22:30:03.121052932 1.068836s notice: Running on Linux 4.4.0-36-generic x86_64
+2016-09-22T22:30:03.121096118 1.068877s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-22T22:30:03.169140336 1.116923s info: Automatically using cache size of 6176 MB
+2016-09-22T22:30:03.357470453 1.305251s notice: Listening for intracluster connections on port 29015
+2016-09-22T22:30:03.381459382 1.329241s notice: Listening for client driver connections on port 28015
+2016-09-22T22:30:03.381630710 1.329412s notice: Listening for administrative HTTP connections on port 8080
+2016-09-22T22:30:03.821937600 1.769719s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%14
+2016-09-22T22:30:04.033566109 1.981347s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%14
+2016-09-22T22:30:04.270343251 2.218124s notice: Listening on http addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%14
+2016-09-22T22:30:04.270512714 2.218294s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-22T22:30:05.068340541 3.016122s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 36.
+2016-09-22T22:30:05.112158434 3.059940s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 36. Latest log index is 105.
+2016-09-22T22:31:56.072859110 114.020641s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-09-22T22:31:56.073094532 114.020876s notice: Shutting down client connections...
+2016-09-22T22:31:56.073180927 114.020962s notice: All client connections closed.
+2016-09-22T22:31:56.073185806 114.020967s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-22T22:31:56.076478244 114.024259s notice: Storage engine shut down.
+2016-09-22T22:48:36.140099890 1.066370s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-22T22:48:36.142441289 1.068730s notice: Running on Linux 4.4.0-36-generic x86_64
+2016-09-22T22:48:36.142535675 1.068804s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-22T22:48:36.187225726 1.113495s info: Automatically using cache size of 5810 MB
+2016-09-22T22:48:36.713707923 1.639976s notice: Listening for intracluster connections on port 29015
+2016-09-22T22:48:36.770281812 1.696550s notice: Listening for client driver connections on port 28015
+2016-09-22T22:48:36.770431658 1.696700s notice: Listening for administrative HTTP connections on port 8080
+2016-09-22T22:48:37.134212603 2.060481s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%38
+2016-09-22T22:48:37.435103990 2.361373s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%38
+2016-09-22T22:48:37.885082403 2.811351s notice: Listening on http addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%38
+2016-09-22T22:48:37.885246490 2.811515s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-22T22:48:38.418779697 3.345049s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 37.
+2016-09-22T22:48:38.483846734 3.410116s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 37. Latest log index is 108.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      2016-09-28T11:50:43.581445743 2.127646s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2016-09-28T11:50:43.697905015 2.244105s notice: Running on Linux 4.4.0-36-generic x86_64
+2016-09-28T11:50:43.697948756 2.244146s notice: Loading data from directory /storage/rethinkdb_data
+2016-09-28T11:50:44.042137943 2.588341s info: Automatically using cache size of 6663 MB
+2016-09-28T11:50:44.373774613 2.919973s notice: Listening for intracluster connections on port 29015
+2016-09-28T11:50:44.698463000 3.244661s notice: Listening for client driver connections on port 28015
+2016-09-28T11:50:44.698639492 3.244837s notice: Listening for administrative HTTP connections on port 8080
+2016-09-28T11:50:45.231006642 3.777207s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%8
+2016-09-28T11:50:45.461594592 4.007793s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%8
+2016-09-28T11:50:45.719671536 4.265869s notice: Listening on http addresses: 127.0.0.1, 172.17.0.3, ::1, fe80::42:acff:fe11:3%8
+2016-09-28T11:50:45.719679508 4.265877s notice: Server ready, "ad4e0f5a2153_im2" 9787b9f8-dba3-4c2d-99d9-4aac66783711
+2016-09-28T11:50:46.207307323 4.753505s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: Starting a new Raft election for term 38.
+2016-09-28T11:50:46.268740788 4.814939s info: Table c88c1a08-3189-42c8-a54a-7908b8e35096: This server is Raft leader for term 38. Latest log index is 111.
+2016-09-28T11:50:58.364575212 16.910774s error: Failed to parse one or more lines from the log file, the contents of the `logs` system table will be incomplete. The following parse error occurred: cannot parse log message (1) while parsing ""
