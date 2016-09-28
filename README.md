@@ -1,2 +1,2 @@
 # react-hot-reload-nodejs-rethinkdb-boilerplate
-This is a react,  nodejs, rethinkdb, webpack with hotreload boiler plate 
+This is a react, react-routes, nodejs, rethinkdb, webpack with hot-reload boiler plate.
